@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="section">
+        <input type="text" id="input" readonly><br>
+        <h3>Password Length:</h3>
+        <input type="range" id="range" min="1" max="50" value="0"">
+        <h1 id="box">0</h1><br>
+        <div class="btn">
+            <button onclick="generate()">Generate</button>
+        </div>
+    </div>
+</body>
+</html>
